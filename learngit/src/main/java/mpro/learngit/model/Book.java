@@ -4,6 +4,14 @@ public class Book {
 	private int bookId;
 	private String bookName;
 	private double price;
+	private String author;
+	
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
 	public int getBookId() {
 		return bookId;
 	}
